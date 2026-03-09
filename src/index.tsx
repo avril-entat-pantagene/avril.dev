@@ -1,6 +1,5 @@
 import { hydrate, prerender as ssr } from 'preact-iso';
 
-import preactLogo from './assets/preact.svg';
 import './style.css';
 
 export function App() {
