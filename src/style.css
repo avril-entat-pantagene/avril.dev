@@ -1,4 +1,18 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+.font-saira-stencil {
+  font-family: 'Saira Stencil One', system-ui;
+}
+
+.saira-stencil-font {
+  font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 :root {
   --ease-out-quint: cubic-bezier(0.230, 1.000, 0.320, 1.000);
@@ -7,17 +21,16 @@
 }
 
 *, *::before, *::after {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 html, body {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background: #111;
   color: white;
   overflow: hidden;
+  font-size: 32px;
 }
 
 #switch {

@@ -1,11 +1,15 @@
 import { hydrate, prerender as ssr } from 'preact-iso';
-
+import {Status} from './components/status/Status'
 import './style.css';
 
 export function App() {
 	return (
-		<div>
-			<h1>Avril</h1>
+		<div class={`grid place-content-center gap-8 h-48`}>
+			<h1 class="saira-stencil-font text-xl">Avril</h1>
+
+			<Status />
+
+			
 		</div>
 	);
 }
